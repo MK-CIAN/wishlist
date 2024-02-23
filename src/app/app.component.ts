@@ -20,20 +20,11 @@ export class AppComponent {
   ];
 
   listFilter : any = '0';
-
-  newWishText = '';
-
+  
   title = 'wishlist';
 
   get visibleItems() : WishItem[] {
     return this.items.filter(filters[this.listFilter]);
-  }
-
-  addNewWish() {
-    //Adding the new wish to items array
-    //Clear text box
-    this.items.push(new WishItem(this.newWishText));
-    this.newWishText = '';
   }
 
 }
