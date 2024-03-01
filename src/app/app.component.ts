@@ -13,10 +13,5 @@ export class AppComponent {
     new WishItem('Go for a run')
   ];
 
-  filter: any = () => {};
-
-  get visibleItems() : WishItem[] {
-    return this.items.filter(this.filter);
-  }
-
+  filter: any;
 }
