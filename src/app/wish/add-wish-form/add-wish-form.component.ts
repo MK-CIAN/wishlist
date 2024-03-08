@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { WishItem } from '../../shared/models/wishitem';
+import { WishItem } from '../../../shared/models/wishitem';
 
 @Component({
   selector: 'app-add-wish-form',
