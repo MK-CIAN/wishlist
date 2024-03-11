@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WishModule } from './wish/wish.module';
+import { ContactModule } from './contact/contact.module';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { WishModule } from './wish/wish.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    WishModule
+    WishModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent]
