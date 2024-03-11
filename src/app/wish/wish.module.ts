@@ -22,10 +22,7 @@ import { WishComponent } from './wish.component';
     HttpClientModule
   ],
   exports: [
-    WishListComponent,
-    AddWishFormComponent,
-    WishFilterComponent,
-    WishListItemComponent
+    WishComponent
   ]
 })
 export class WishModule { }
